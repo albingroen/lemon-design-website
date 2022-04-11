@@ -1,7 +1,14 @@
 import Seo from "../components/Seo";
 import type { NextPage } from "next";
-import { ArrowSmRightIcon, LightningBoltIcon } from "@heroicons/react/solid";
-import { Button, Divider, Modal, Stack, Typography } from "lemon-design-react";
+import { LightningBoltIcon } from "@heroicons/react/solid";
+import {
+  Button,
+  Divider,
+  LinkButton,
+  Modal,
+  Stack,
+  Typography,
+} from "lemon-design-react";
 import { useState } from "react";
 
 const Home: NextPage = () => {
@@ -19,11 +26,9 @@ const Home: NextPage = () => {
               A React component library based on Tailwind CSS
             </h1>
             <Stack>
-              <Button
-                icon={<ArrowSmRightIcon className="w-4 text-yellow-500" />}
-              >
+              <LinkButton href="https://main--624787b9a7abe6004a647008.chromatic.com/">
                 View components
-              </Button>
+              </LinkButton>
 
               <Button
                 icon={<LightningBoltIcon className="w-4 text-yellow-500" />}
