@@ -26,6 +26,7 @@ const Home: NextPage = () => {
               A React component library based on Tailwind CSS
             </h1>
             <Stack>
+              {/*@ts-ignore*/}
               <LinkButton href="https://main--624787b9a7abe6004a647008.chromatic.com/">
                 View components
               </LinkButton>
