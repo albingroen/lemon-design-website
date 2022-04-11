@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <Stack direction="vertical" spacing="large" align="start">
           <p className="text-8xl">🍋</p>
           <Stack direction="vertical" align="start" className="!gap-8">
-            <h1 className="text-8xl font-semibold text-white max-w-[900px] filter drop-shadow">
+            <h1 className="text-6xl md:text-8xl font-semibold text-white max-w-[900px] filter drop-shadow">
               A React component library based on Tailwind CSS
             </h1>
             <Stack>
