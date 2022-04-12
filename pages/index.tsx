@@ -18,7 +18,7 @@ const Home: NextPage = () => {
     <>
       <Seo />
 
-      <div className="h-screen bg-yellow-400 p-10">
+      <div className="p-10">
         <Stack direction="vertical" spacing="large" align="start">
           <p className="text-8xl">🍋</p>
           <Stack direction="vertical" align="start" className="!gap-8">
